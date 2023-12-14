@@ -1,0 +1,47 @@
+@use "./../../../../assets/styles/variables.scss";
+
+#container{
+    height: 100px;
+    display: flex;
+    background-color: rgb(242, 235, 235);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+
+#foto{
+    background-size: cover;
+    height: 100%;
+    flex: 2;
+    background-position: center;
+    display: flex;
+    align-items: end;
+    gap: 5px;
+    
+}
+
+#detalles{
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    font-size: small;
+}
+
+h4{
+    font-weight: bold;  
+    margin-bottom: 5px;
+    font-size: small;
+}
+
+ul li{
+    display: inline;
+    font-size: x-small;
+}
+
+#precio{
+    text-align: end;
+    font-weight: bold;
+    font-size: small;
+}
